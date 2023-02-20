@@ -22,8 +22,7 @@ This is a web application built using Python, Django, and JavaScript, which allo
 
 ### Getting Started
 - Clone the repository to your local machine and access the application directory.
-- Activate virtual environment: `.\venv\Scripts\activate`
-- Access to the apptrack directory `cd apptrack`
+- Create virtual environment: `python -m virtualenv env`
 - Run the Django development server with `python manage.py runserver`
 - Navigate to `http://127.0.0.1:8000/tracker/` in your web browser to access the job application tracker.
 
