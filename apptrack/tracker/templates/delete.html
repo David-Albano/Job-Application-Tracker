@@ -1,0 +1,29 @@
+{% extends 'index.html' %}
+
+{% block float %}
+<main class="container position-absolute top-0">
+    <div class="container position-absolute container-delete">
+        <div class="d-flex justify-content-evenly bg-dark max-width p-4">
+            <div>
+                <h2 class="text-light"> Sure you wanna delete this job application?</h2>
+            </div>
+            <div class="div-delete" style="margin-left: -100px;">
+                <a href="{% url 'index' %}">
+                    <button class="btn btn-secondary div-delete">
+                        Cancel
+                    </button>
+                </a>
+            </div>
+            <div class="div-delete">
+                <form method="POST">
+                {% csrf_token %}
+                    <input value="{{ id_application }}" style="display: none;" name="id_application"/>
+                    <button type="submit" class="btn btn-secondary div-delete" style="margin-left: -100px;">
+                        Delete
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock%}

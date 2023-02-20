@@ -1,0 +1,99 @@
+body {
+    background: url(main_img.jpg);
+}
+
+
+main {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgb(37, 37, 37, 0.8);
+}
+
+.container {
+    min-width: 99vw;
+}
+
+.container-delete {
+    top: 40%;
+    border: solid 1px #FFF;
+    border-radius: 5px;
+}
+
+.container-info {
+    top: 32%;
+    left: 25%;
+    border: solid 1px #FFF;
+    border-radius: 5px;
+    width: 40%;
+    max-height: 50%;
+    overflow:auto; 
+}
+
+.centered {
+    text-align: center !important;
+    vertical-align: middle;
+}
+
+.width_cells {
+    min-width: 110px !important;
+    overflow: hidden;
+}
+
+select {
+    border-radius: 5px;
+    border-color: none;
+}
+
+label {
+    color: #FFF;
+}
+
+#db-applications_info {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.paginate_button {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+input, #job_desc {
+    width: 50%;
+    background-color: #000;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: solid 0.5px #FFF;
+    border-radius: 4px;
+}
+
+#date_form {
+    background-color: #7e7a7a;
+    border: 0.1px #000;
+    color: #000;
+    font-weight: bold;
+    width: 20%;
+}
+
+#job_desc {
+    height: 50px;
+}
+
+.div-btn-add {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.btn-add {
+    width: 100%;
+    font-weight: bold;
+}
+
+.div-delete {
+    width: 150px; 
+    height: 50px;
+}
