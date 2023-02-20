@@ -38,3 +38,7 @@ This is a web application built using Python, Django, and JavaScript, which allo
 
 ### Conclusion
 This project provides a convenient way to track job applications and related information. It is easily customizable to fit any user's needs and can be expanded with additional features if desired.
+
+<hr/>
+
+![](./apptrack/previews/preview01.png)
