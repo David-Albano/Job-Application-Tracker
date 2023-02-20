@@ -41,4 +41,4 @@ This project provides a convenient way to track job applications and related inf
 
 <hr/>
 
-![](./apptrack/previews/preview01.png)
+![](./previews/preview01.png)
